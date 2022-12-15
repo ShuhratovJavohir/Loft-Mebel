@@ -1,0 +1,28 @@
+{
+  "name": "loft-mebel",
+  "version": "1.0.0",
+  "description": "educational project ",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ShuhratovJavohir/Loft-Mebel.git"
+  },
+  "keywords": [
+    "Loft",
+    "Mebel"
+  ],
+  "author": "ISE-32R",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ShuhratovJavohir/Loft-Mebel/issues"
+  },
+  "homepage": "https://github.com/ShuhratovJavohir/Loft-Mebel#readme",
+  "dependencies": {
+    "next": "^13.0.6",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
