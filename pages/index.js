@@ -1,21 +1,20 @@
 import Link from 'next/link'
+import ProductItems from "../components/ProductItems";
 
-export default function Home({product}){
-	console.log(product)
+export default function Home({products}){
 	return (
 		<div>
 			<h1>Главная страница!</h1>
 			<ul>
-				<li>
-					<Link href="/about">
-						о нас
-					</Link>
-				</li>
-				<li>
-					<Link href="/catalog">
-						каталог
-					</Link>
-				</li>
+				{
+					products.map(product =>
+						<li key={product._id}>
+							<Link href={`/product/${product._id}`}>
+								{product.name}
+							</Link>
+						</li>
+					)
+				}
 			</ul>
 		</div>
 	);
@@ -23,13 +22,9 @@ export default function Home({product}){
 
 export async function getStaticProps(){
 	const response = await fetch('http://localhost:3000/api/products')
-	const product = await  response.json()
+	const products = await  response.json()
 
-	return{
-		props: {
-			product
-		}
-	}
+	return{props: {products}}
 }
 
 
