@@ -1,9 +1,10 @@
 import Link from 'next/link'
-import ProductItems from "../components/ProductItems";
+import Header from "../components/Header";
 
 export default function Home({products}){
 	return (
-		<div>
+		<div className='wrapper'>
+			<Header />
 			<h1>Главная страница!</h1>
 			<ul>
 				{

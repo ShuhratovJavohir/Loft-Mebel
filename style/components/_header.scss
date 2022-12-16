@@ -1,0 +1,78 @@
+.header{
+  padding: 29px 0;
+}
+
+.nav{
+  display: flex;
+  align-items: center;
+}
+
+.logo{
+  margin-right: 34px;
+}
+
+.list{
+  display: flex;
+  margin-right: 40px;
+
+  .listItems{
+    margin-left: 30px;
+  }
+  .listItems:first-child{
+    margin-left: 0;
+  }
+}
+
+.search{
+  display: flex;
+  align-items: center;
+  background-color: #EBEBEB;
+  padding: 12px 15px;
+  margin-right: 32px;
+
+  .searchImg{
+    margin-right: 20px;
+  }
+
+  .searchInput{
+    border: none;
+    background-color: inherit;
+  }
+}
+
+.other{
+  display: flex;
+  align-items: center;
+  margin-right: 40px;
+
+  .otherLink{
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
+
+    .otherImg{
+      margin-right: 10px;
+    }
+  }
+
+  .otherDelivery{
+    display: flex;
+
+    .otherDeliveryImg {
+      margin-right: 10px;
+    }
+  }
+}
+
+.iconList{
+  display: flex;
+  align-items: center;
+
+  .iconListItems {
+    margin-left: 30px;
+  }
+  .iconListItems:first-child{
+    margin-left: 0;
+  }
+}
+
