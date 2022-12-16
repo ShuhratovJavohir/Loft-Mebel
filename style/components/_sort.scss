@@ -1,0 +1,46 @@
+.sort{
+  background: $white;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.07);
+}
+
+.sortList{
+  display: flex;
+  align-items: center;
+
+  .sortItems{
+    display: flex;
+    align-items: center;
+    padding: 24px 20px;
+
+    &:hover{
+      background-color: red;
+    }
+    &:first-child{
+      padding-left: 50px;
+    }
+
+    .sortItemsImg{
+      margin-right: 10px;
+    }
+  }
+  .stock{
+    padding: 27px 20px;
+  }
+}
+
+.burger{
+  display: flex;
+  flex-direction: column;
+
+  span{
+    width: 3px;
+    height: 3px;
+    background-color: black;
+    margin-top: 5px;
+    border-radius: 100%;
+
+    &:first-child{
+      margin-top: 0;
+    }
+  }
+}

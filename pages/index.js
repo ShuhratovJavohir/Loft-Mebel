@@ -1,10 +1,12 @@
-import Link from 'next/link'
+import Link from 'next/link';
 import Header from "../components/Header";
+import Sort from '../components/sort';
 
 export default function Home({products}){
 	return (
 		<div className='wrapper'>
 			<Header />
+			<Sort />
 			<h1>Главная страница!</h1>
 			<ul>
 				{
