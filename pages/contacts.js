@@ -1,8 +1,10 @@
+import MainConteiner from "../components/MainConteiner";
+
 const Contacts = () => {
     return(
-        <div>
+        <MainConteiner>
             <h1>contacts</h1>
-        </div>
+        </MainConteiner>
     )
 }
 

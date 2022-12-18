@@ -1,8 +1,10 @@
+import MainConteiner from "../components/MainConteiner";
+
 const About = () => {
     return(
-        <div>
+        <MainConteiner>
             <h1>О нас!</h1>
-        </div>
+        </MainConteiner>
     )
 }
 

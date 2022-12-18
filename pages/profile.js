@@ -1,6 +1,8 @@
+import MainConteiner from "../components/MainConteiner";
+
 const Profile = () => {
     return(
-        <div><h1>profile</h1></div>
+        <MainConteiner><h1>profile</h1></MainConteiner>
     )
 }
 

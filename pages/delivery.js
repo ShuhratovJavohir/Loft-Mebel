@@ -1,6 +1,8 @@
+import MainConteiner from "../components/MainConteiner";
+
 const Delivery = () => {
     return(
-        <div><h1>delivery</h1></div>
+        <MainConteiner><h1>delivery</h1></MainConteiner>
     )
 }
 

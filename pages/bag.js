@@ -1,8 +1,10 @@
+import MainConteiner from "../components/MainConteiner";
+
 const Bag = () => {
     return(
-        <div>
+        <MainConteiner>
             <h1>Bag</h1>
-        </div>
+        </MainConteiner>
     )
 }
 

@@ -1,9 +1,11 @@
+import MainConteiner from "../components/MainConteiner";
+
 const Catalog = () => {
     return(
-        <div>
+        <MainConteiner>
             <h1>Каталог</h1>
 
-        </div>
+        </MainConteiner>
     )
 }
 

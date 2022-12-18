@@ -1,25 +1,20 @@
-import Link from 'next/link';
-import Header from "../components/Header";
-import Sort from '../components/sort';
+import Swiper from "../components/App";
+import MainConteiner from "../components/MainConteiner";
+import ProductCard from "../components/ProductCard";
 
 export default function Home({products}){
 	return (
-		<div className='wrapper'>
-			<Header />
-			<Sort />
-			<h1>Главная страница!</h1>
-			<ul>
+		<MainConteiner>
+			<Swiper />
+			<p className='indexTitle'>Хиты продаж</p>
+			<div className="product--grid">
 				{
-					products.map(product =>
-						<li key={product._id}>
-							<Link href={`/product/${product._id}`}>
-								{product.name}
-							</Link>
-						</li>
-					)
+					products.map((items, id) =>(
+						<ProductCard {...items}/>
+					))
 				}
-			</ul>
-		</div>
+			</div>
+		</MainConteiner>
 	);
 }
 
@@ -29,5 +24,7 @@ export async function getStaticProps(){
 
 	return{props: {products}}
 }
+
+
 
 
