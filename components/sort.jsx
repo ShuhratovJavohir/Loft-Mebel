@@ -10,7 +10,7 @@ const Sort = () => {
             <ul className='sortList'>
                 {
                     sortData.map((items, id) =>(
-                        <Link href={'/'} key={id}>
+                        <Link href={'/catalog'} key={id}>
                             <li className='sortItems' >
                             <Image className='sortItemsImg' src={items.img} alt={items.type}/>
                             {items.name}

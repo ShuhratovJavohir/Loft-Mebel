@@ -1,0 +1,131 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+.container{
+  width: 100%;
+  height: 100%;
+  padding: 0 133px 0 127px;
+}
+
+
+.form{
+  padding-top: 84px;
+  width: 100%;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+}
+
+.form__left h3{
+  color: #414141;
+  padding-bottom: 54px;
+  font-weight: 400;
+}
+
+.form__content{
+  display: flex;
+  padding-bottom: 30px;
+  justify-content: space-around;
+}
+
+form .form__inputs{
+  position: relative;
+}
+
+form .form__inputs label{
+  font-size: 12px;
+  color: #969696;
+  position: absolute;
+  top: -20px;
+  left: 0;
+}
+
+form .form__inputs input{
+  width: 207px;
+  height: 38px;
+  box-shadow: inset 1px 1px 5px rgba(0, 0, 0, 0.07);
+  border: none;
+  outline: none;
+  background: #FCFCFC;
+}
+form .form__inputs input:active{
+  outline: none;
+  border: none;
+}
+
+.form__text{
+  position: relative;
+}
+.form__text label{
+  font-size: 12px;
+  color: #969696;
+  position: absolute;
+  top: -20px;
+  left: 0;
+}
+
+.form__text textarea{
+  width: 425px;
+  height: 142px;
+  resize: none;
+  background: #FCFCFC;
+  box-shadow: inset 1px 1px 5px rgba(0, 0, 0, 0.07);
+  border: none;
+  outline: none;
+}
+
+.form__text textarea:active{
+  border: none;
+  outline: none;
+}
+
+.form__btn{
+  padding-top: 20px;
+  display: flex;
+  justify-content: right;
+}
+.form__btn button.file{
+  width: 149px;
+  height: 40px;
+  background: #FFFFFF;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.07);
+  border: none;
+  outline: none;
+}
+.form__btn button.send{
+  width: 106px;
+  height: 40px;
+  background: #245462;
+  border: none;
+  outline: none;
+  margin-left: 20px;
+  color: #fff;
+}
+
+.form__right{
+  margin-left: 100px;
+  padding-top: 75px;
+}
+
+.form__right a{
+  text-decoration: none;
+  color: #414141;
+  padding-left: 30px;
+
+}
+.form__right a:nth-child(2){
+  margin-left: 25px;
+}
+
+.inst{
+  margin-top: 25px;
+  margin-bottom: 30px;
+}
+
+.aboutIcon{
+  margin-right: 10px;
+}
